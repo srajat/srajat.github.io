@@ -1,0 +1,568 @@
+<!--A Design by Bloodphoenix
+Author: Rajat Saxena
+Date: 4-Mar-2016
+Institution: Indian Institute of Information Technology, Allahabad
+-->
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Rajat Saxena - Profile</title>
+        <link href="css/bootstrap.css" rel="stylesheet" type="text/css" media="all" />
+        <script src="js/jquery.min.js"></script>
+        <link href="css/style.css" rel="stylesheet" type="text/css" media="all" />	
+        <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+        <script type="application/x-javascript"> 
+            addEventListener("load", function() { setTimeout(hideURLbar, 0); }, false);
+            function hideURLbar(){ window.scrollTo(0,1); } 
+        </script>
+        <link href='http://fonts.googleapis.com/css?family=Fjalla+One' rel='stylesheet' type='text/css'>
+        <link href='http://fonts.googleapis.com/css?family=Open+Sans:400,300,600,700,800' rel='stylesheet' type='text/css'>
+        <script type="text/javascript" src="js/move-top.js"></script>
+        <script type="text/javascript" src="js/easing.js"></script>
+        <script type="text/javascript">
+					jQuery(document).ready(function($) {
+						$(".scroll").click(function(event){		
+							event.preventDefault();
+							$('html,body').animate({scrollTop:$(this.hash).offset().top},1000);
+						});
+					});
+		</script>
+		<!----start-top-nav-script---->
+		<script>
+			$(function() {
+				var pull 		= $('#pull');
+					menu 		= $('.top-nav ul');
+					menuHeight	= menu.height();
+				$(pull).on('click', function(e) {
+					e.preventDefault();
+					menu.slideToggle();
+				});
+				$(window).resize(function(){
+	        		var w = $(window).width();
+	        		if(w > 320 && menu.is(':hidden')) {
+	        			menu.removeAttr('style');
+	        		}
+	    		});
+			});
+		</script>
+
+    </head>
+    <body> 
+    <!--header-->
+	<div class="header">
+			<div class="container">
+				<div class="logo">
+					<a href="index.html"><h1>RAJAT<span>SAXENA</span></h1></a>
+				</div>
+				<div class="top-nav">
+				    <ul>
+						<li class="active" ><a href="#home" class="scroll">Home</a></li>
+						<li><a href="#about" class="scroll"> About</a></li>
+						<li><a href="#portfolio" class="scroll">portfolio </a></li>
+						<li><a href="#contact" class="scroll">contact</a></li>
+					</ul>
+					<a href="#" id="pull"><img src="images/menu.png" title="menu" /></a>
+				</div>
+			    <div class="clearfix"> </div>
+		    </div>
+	</div>
+	<!--banner-->
+	<div class="banner">
+		<div class="container">
+            <img id="microsoft-img" src="images/MTA_SoftDev_Blk.png" height="150px" width="200px" />
+			<ul class="social-ic-icons">
+				<li class="facebook"><a href="https://www.facebook.com/profile.php?id=100007653047635"><img src="images/facebook.png" width="50px" height="50px"/></a></li>				
+				<li class="been"><a href="https://www.github.com/srajat/"><img src="images/github.png" width="50px" height="50px"/></a></li>
+				<li class="twitter"><a href="https://www.linkedin.com/in/rajat-saxena-850481109?trk=nav_responsive_tab_profile_pic"><img src="images/linkedin.png" width="45px" height="45px"/></a></li>
+			</ul>
+			<div class="clearfix"> </div>
+		    <div class="wmuSlider example1">
+			   <div class="wmuSliderWrapper">
+			        <article style="position: absolute; width: 100%; opacity: 0;">
+				   	<div class="banner-wrap">
+				   	       <div class="bannertop_box">
+                                  
+					  			<div class="welcome_box">
+					  				<h2><span>WEB DEVELOPER ENTHUSIAST</span></h2>
+					  			</div>
+								<div class="clearfix"> </div>
+				   		   </div>
+				   		   <div class='clearfix'></div>
+				   	</div>
+			        </article>
+			        <article style="position: absolute; width: 100%; opacity: 0;"> 
+				   	<div class="banner-wrap">
+				   	       <div class="bannertop_box">
+					  			<div class="welcome_box">
+					  				<h2><span>PROGRAMMER</span></h2>
+					  			</div>
+								<div class="clearfix"> </div>
+				   		 	</div>
+				   		 <div class='clearfix'></div>
+				   	 </div>
+			        </article>
+          <article style="position: absolute; width: 100%; opacity: 0;">
+              <div class="banner-wrap">
+                  <div class="bannertop_box">
+                      <div class="welcome_box">
+                          <h2><span>DESIGNER</span></h2>
+                      </div>
+                      <div class="clearfix"> </div>
+                  </div>
+                  <div class='clearfix'></div>
+              </div>
+          </article>
+          <article style="position: absolute; width: 100%; opacity: 0;">
+              <div class="banner-wrap">
+                  <div class="bannertop_box">
+                      <div class="welcome_box">
+                          <h2><span>THINKER</span></h2>
+                      </div>
+                      <div class="clearfix"> </div>
+                  </div>
+                  <div class='clearfix'></div>
+              </div>
+          </article>
+			    </div>
+		    </div>
+
+		  <script src="js/jquery.wmuSlider.js"></script> 
+			  <script>
+       			$('.example1').wmuSlider({
+					 pagination : false,
+				});         
+   		     </script> 	
+
+		<div class="banner-matter">
+		    <p>IT Student at<span> </span></p>
+		    <p>Indian Institute of Information Technology Allahabad</p>
+            <p>IIITA</p>
+		    <a href="http:\\www.iiita.ac.in" style="color:white;" id="college_website">www.iiita.ac.in</a>
+		</div>
+
+		<div class='clearfix'></div>
+		<a href="#hello" class="scroll down"><img src="images/arr.png" alt="" /></a>
+		</div>   
+	</div>
+
+	<!--content-->
+
+	<div class="content">
+	<div class="container">
+		<div class="hello" id="hello">
+			<span class="arrow"> </span>
+			<h3>Hello <span>There</span> !</h3>
+			<p>My name is Rajat Saxena, and I originally belong to Kotdwara, Uttarakhand.
+            Currently I am pursuing my Btech degree in IT from IIIT Allahabad.
+            I have learned and tried to master languages such as HTML, CSS, JAVASCRIPT and programming languages including C, C++, JAVA and C#.
+            I have also completed courses in Design and Analysis of Algorithms, Operating Systems, DBMS, OOP principles and Theory of Computation.
+            When I design, I always try to be unique and push the boundaries.
+            I love watching TV series and playing Table Tennis.</p>
+            <p>
+            So, now you know a bit about me. Check out my Portfolio and if you are really interested head over to contact area and shoot me a email.
+            </p>
+            
+			<!--<div class="in-btns">
+			    <a class="startnow" href="#">My Work</a>
+			</div>-->
+				<ul class="in-social">
+					<li class="been"><a class="been" href="https://www.facebook.com/profile.php?id=100007653047635"><img src="images/facebook.png" width="50px" height="50px" /></a></li>
+					<li class="dribble"><a href="https://www.github.com/srajat/"><img src="images/github.png" width="50px" height="50px" /></a></li>
+					<li class="in"><a href="https://www.linkedin.com/in/rajat-saxena-850481109?trk=nav_responsive_tab_profile_pic"><img src="images/linkedin.png" width="45px" height="45px" /></a></li>
+				</ul>
+			<!--<img class="in-letter" src="images/lee.png" alt="" >-->
+		</div>
+	</div>
+	<!--services
+		<div class="services" id="services">
+			<div class="container">
+				<div class="services-top">
+					<h3>S<span>ERVICE</span>S</h3>
+					<p>Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of classical Latin literature.</p>
+				</div>
+				<div class="services-bottom">
+					<div class="col-md-4 services-grid">
+						<a href="#"><img  src="images/tv.png" alt="" /></a>
+						<h4>WEB</h4>
+						<p>Lorem Ipsum is simply dummy text of the typesetting industry.</p>
+					</div>
+					<div class="col-md-4 services-grid">
+						<a href="#"><img  src="images/ph.png" alt="" /></a>
+						<h4>UI/UX</h4>
+						<p>Lorem Ipsum is simply dummy text of the typesetting industry.</p>
+					</div>
+					<div class="col-md-4 services-grid">
+						<a href="#"><img  src="images/me.png" alt="" /></a>
+						<h4>BRANDING</h4>
+						<p>Lorem Ipsum is simply dummy text of the typesetting industry.</p>
+					</div>
+					<div class='clearfix'></div>
+				</div>
+				
+			</div>
+		</div>-->
+		
+		<div class="about-me" id="about">
+			<div class="container">
+				<div class="about">
+					<h3>a<span>bout m</span>e</h3>
+					<p>I continually look for ways to polish my skills and bring in new and innovative approaches in my work.</p>
+					<p>Being a student of IT, I have interest in the following areas.</p>
+				</div>
+				<div class="about-grids">
+	 		 	      <div id="canvas">
+							<div class="skill-grids text-center">
+									<div class="col-md-4">	
+										<div class="skill-grid">
+											<div class="every" id="circles-1"></div>									
+											<p class="who">HTML/CSS</p>
+										 </div>								  
+									</div>
+									<div class="col-md-4">	
+										<div class="skill-grid">
+											<div class="every" id="circles-2"></div>									
+											 <p class="who">BOOTSTRAP</p>
+										 </div>								  
+									</div>
+									<div class="col-md-4">	
+										<div class="skill-grid">
+											<div class="every" id="circles-3"></div>									
+											 <p class="who">ASP.NET/C#</p>
+										 </div>								  
+									</div>
+                                <div class="clearfix"> </div>
+                                <div class="col-md-4">
+                                    <div class="skill-grid">
+                                        <div class="every" id="circles-4"></div>
+                                        <p class="who">C/C++</p>
+                                    </div>
+                                </div>
+                                <div class="col-md-4">
+                                    <div class="skill-grid">
+                                        <div class="every" id="circles-5"></div>
+                                        <p class="who">JAVA</p>
+                                    </div>
+                                </div>
+                                <div class="col-md-4">
+                                    <div class="skill-grid">
+                                        <div class="every" id="circles-6"></div>
+                                        <p class="who">JAVASCRIPT</p>
+                                    </div>
+                                </div>
+									<div class="clearfix"> </div>
+					          </div>
+					   </div>
+				</div>
+
+				<!---->
+				 <script type="text/javascript" src="js/circles.js"></script>
+					         <script>
+								var colors = [
+										['#eeeeee', '#e84c3d'], ['#eeeeee', '#e84c3d'], ['#eeeeee', '#e84c3d']
+								];
+								var percentage;
+								for (var i = 1; i <= 6; i++) {
+								    var child = document.getElementById('circles-' + i),
+								    
+								        percentage = 90;
+								        if(i==2)
+								        percentage = 60;
+								        if(i==3)
+								        percentage = 70;
+								        if(i==4)
+								        percentage = 80;
+								        if(i==5)
+								        percentage = 80;
+								        if(i==6)
+								        percentage = 60;
+								    
+										
+									Circles.create({
+										id:         child.id,
+										percentage: percentage,
+										radius:     115,
+										width:      10,
+										number:   	percentage,
+										text:       '%',
+										colors:     colors[i - 1]
+									});
+								}
+						
+				</script>
+
+			</div>
+		</div>
+        <!--work-->
+        <div class="work" id="portfolio">
+            <div class="container">
+                <h3>LASTEST ACHIEVEMENTS</h3>
+                <div class="work-top row">
+                    <div class="work-grid">
+                        <a href="#portfolio">
+                            <img class="img-responsive in-work" src="images/hp.png" alt="" />
+                            <span class="zoom-icon"></span>
+                        </a>
+                        <div class="web">
+                            <h6>Winter Trainee at HP</h6>
+                            <p>I have completed 4 weeks training at HP India in the feild of ASP.NET with C#</p>
+                            
+                        </div>
+                    </div>
+                    <div class="work-grid ">
+                        <a href="#portfolio">
+                            <img class="img-responsive in-work" src="images/MTA_SoftDev_Blk.png" alt="MTA" />
+                            <span class="zoom-icon"></span>
+                        </a>
+                        <div class="web">
+                            <h6>Microsoft Technical Assistant</h6>
+                            <p>MTA certified by Micosoft.</p>
+
+                        </div>
+                    </div>
+                    <div class="work-grid ">
+                        <a href="https://github.com/srajat/Library-using-ASP.NET" target="_blank">
+                            <img class="img-responsive in-work" src="images/library.png" alt="Library Img" />
+                            <span class="zoom-icon"></span>
+                        </a>
+                        <div class="web">
+                            <h6>Library Web App</h6>
+                            <p>A Web app implementing basic functions of an online Library using .NET Framework, bootstrap and SQL</p>
+                            
+                        </div>
+                    </div>
+                    <div class="work-grid">
+                        <a href="https://github.com/srajat/Online-Voting-System" target="_blank">
+                            <img class="img-responsive in-work" src="images/voting.PNG" alt="Matdaan" />
+                            <span class="zoom-icon"></span>
+                        </a>
+                        <div class="web">
+                            <h6>Online Voting System</h6>
+                            <p>"MATDAAN" an ASP.NET app for managing and conducting online elections in IIITA. This project was made as a DBMS project in the 2nd Semester using .NET Framework, Materialize 0.97 and Microsoft SQL.</p>
+
+                        </div>
+                    </div>
+                    <div class="work-grid ">
+                        <a href="#portfolio">
+                            <img class="img-responsive in-work" src="images/BEL.jpg" alt="BEL" />
+                            <span class="zoom-icon"></span>
+                        </a>
+                        <div class="web">
+                            <h6>Vocational Training under BEL</h6>
+                            <p>Currently Undergoing Vocational Training in Bharat Electronics Ltd.</p>
+
+                        </div>
+                    </div>
+                    <div class="work-grid ">
+                        <a href="https://github.com/srajat/UDP-SIP-Server" target="_blank">
+                            <img class="img-responsive in-work" src="images/sip.jpg" alt="SIP" />
+                            <span class="zoom-icon"></span>
+                        </a>
+                        <div class="web">
+                            <h6>VoIP Communication Project</h6>
+                            <p>Ongoing Project in Bharat Electronics Ltd. for implementing VoIP communication using SIP protocol and Socket Programming in JAVA.</p>
+
+                        </div>
+                    </div>
+                    
+                </div>
+                <!--<a class="more" href="#">MORE</a>-->
+            </div>
+        </div>
+        <!--
+        <div class="work-bottom">
+            <ul id="flexiselDemo1">
+                <li><img src="images/lo.png"/></li>
+                <li><img src="images/lo1.png"/></li>
+                <li><img src="images/lo2.png"/></li>
+                <li><img src="images/lo3.png"/></li>
+                <li><img src="images/lo4.png"/></li>
+                <li><img src="images/lo5.png"/></li>
+                <li><img src="images/lo6.png"/></li>
+                <li><img src="images/lo7.png"/></li>
+                <li><img src="images/lo8.png"/></li>
+            </ul>
+            <script type="text/javascript">
+                $(window).load(function() {
+                $("#flexiselDemo1").flexisel({
+                visibleItems: 9,
+                animationSpeed: 1000,
+                autoPlay: true,
+                autoPlaySpeed: 3000,
+                pauseOnHover: true,
+                enableResponsiveBreakpoints: true,
+                responsiveBreakpoints: {
+                    portrait: {
+                        changePoint:480,
+                        visibleItems: 1
+                    },
+                    landscape: {
+                        changePoint:640,
+                        visibleItems: 2
+                    },
+                    tablet: {
+                        changePoint:768,
+                        visibleItems: 3
+                    }
+                }
+            });
+
+        });
+    </script>
+    <script type="text/javascript" src="js/jquery.flexisel.js"></script>
+        </div> -->
+
+		<div class="clients" >
+			 <div class="container">
+				<h3>Some of my favorite quotes</span></h3>
+				<!---->
+				 <!-- requried-jsfiles-for owl -->
+				 <link href="css/owl.carousel.css" rel="stylesheet">
+							    <script src="js/owl.carousel.js"></script>
+							        <script>
+									    $(document).ready(function() {
+									      $("#owl-demo1").owlCarousel({
+									        items : 1,
+									        lazyLoad : true,
+									        autoPlay : true,
+									        navigation : true,
+									        navigationText :  true,
+									        pagination : false,
+									      });
+									    });
+									  </script>
+							 <!-- //requried-jsfiles-for owl -->
+							 <!-- start content_slider -->
+						       <div id="owl-demo1" class="owl-carousel">
+							   <div class="item-bottom">
+					                <div class="item-right">
+									<p>Patience is not the ability to wait, but the ability to keep a good attitude while waiting.</p>
+										<span>Joyce Meyer</span>
+									</div>
+								</div>
+								<div class="item-bottom">
+					                <div class="item-right">
+										<p>Is God willing to prevent evil, but not able? Then He is not omnipotent. Is He able, but not willing? Then He is malevolent. Is He both able and willing? Then whence cometh evil? Is He neither able nor willing? Then why call Him God?</p>
+										<span>Epicurus</span>
+									</div>
+								</div>
+								<div class="item-bottom">
+					                <div class="item-right">
+										<p>First they ignore you, then they laugh at you, then they fight you, then you win.</p>
+										<span>Mahatama Gandhi</span>
+									</div>
+								</div>
+                                <div class="item-bottom">
+                                    <div class="item-right">
+                                        <p>The real problem is not whether machines think but whether men do.</p>
+                                        <span>B.F Skinner</span>
+                                    </div>
+                                </div>							
+									
+								</div>
+				</div>	
+			</div>
+			<!--
+			<div class="comment">
+				<div class="container">
+					<div class="col-md-6">
+						<a href="#"><img class=" in-comment" src="images/men.png" alt="" /></a>
+						<div class="left-comment">
+						<h6>subscribr for for comment</h6>
+						<p>"Lorem Ipsum is simply dummy text of the printing and typesetting industry..."- <span>John Doe/Company name</span> </p>
+						</div>
+						<div class="clearfix"> </div>
+					</div>
+					<div class="col-md-6 email-here">
+						<h6>your email here</h6>
+						<div class="email">
+							<input type="text" value="enter your email id here ..." onfocus="this.value='';" onblur="if (this.value == '') {this.value ='enter your email id here ...';}">
+						</div>
+						<div class="send">
+							<input type="submit" value="SUBSCRIBE" >
+						</div>
+						<div class="clearfix"> </div>
+					</div>
+					<div class="clearfix"> </div>
+				</div>
+			</div>-->
+			<!----contact-->
+			<div class="contact" id="contact">
+				<div class="container">
+				<h3>CONTACT ME</h3>
+				<div class="contact-in">
+					<div class="col-md-6 in-on">																								
+						<small>to</small>
+						<p>rajat8171@gmail.com</p>
+						<form action="sendmessage.php" method="get">
+
+                            <input type="hidden" value="rajat8171@gmail.com" name="send_to" />
+                            <input type="hidden" value="#index" name="redirect" />
+                            <input type="hidden" value="Contact Form Submission" name="subject" />
+
+							<input type="text" name="name" placeholder="Your Name"/>
+							<input type="email" name="email" placeholder="Your Email"/>
+							<input type="text" name="comments" placeholder="Your Message"/>
+						<div class="send-in">
+						<input type="submit" value="Submit" >
+                            <p style="color:crimson">( Sorry this contact feild is not working presently )</p>
+						</div>
+					</form>
+					</div>
+					<div class="col-md-6 dot-in">	
+						<img class="img-responsive in-map" src="images/ma.png" alt="" />
+						<label class="dot"> </label>
+						<div class="live">
+						<span>Currently</span>
+						<p>Allahabad, India</p>	
+						</div>
+					</div>
+					<div class="clearfix"> </div>
+				</div>
+				</div>
+			</div>
+	</div>
+	<!--footer-->
+	<div class="footer">
+		<div class="container">
+				<div class="footer-class">
+				<div class="class-footer">
+					<ul>
+						<li  ><a href="#home" class="scroll">Home</a>  <span>/</span> </li>
+						<li><a href="#about" class="scroll">About </a><span>/</span></li>
+						<li><a href="#portfolio" class="scroll">Portfolio</a> <span>/</span></li>
+						<li><a href="#contact" class="scroll">Contact </a></li>
+					</ul>
+					 <p class="footer-grid">&copy;Made by Rajat Saxena </p>
+				</div>	 
+					 <ul class="social-in-icons">
+						<li class="facebook"><a href="https://www.facebook.com/profile.php?id=100007653047635"><img src="images/facebook.png" width="50px" height="50px" /></a></li>
+                         &nbsp;
+						<li class="twitter"><a href="https://www.github.com/srajat/"><img src="images/github.png" width="50px" height="50px" /></a></li>
+                        &nbsp;
+						<li class="inline"><a href="https://www.linkedin.com/in/rajat-saxena-850481109?trk=nav_responsive_tab_profile_pic"><img src="images/linkedin.png" width="45px" height="45px" /></a></li>
+                    &nbsp;
+					</ul>
+				<div class="clearfix"> </div>
+			 	</div>
+		 </div>
+		 <script type="text/javascript">
+						$(document).ready(function() {
+							/*
+							var defaults = {
+					  			containerID: 'toTop', // fading element id
+								containerHoverID: 'toTopHover', // fading element hover id
+								scrollSpeed: 1200,
+								easingType: 'linear' 
+					 		};
+							*/
+							
+							$().UItoTop({ easingType: 'easeOutQuart' });
+							
+						});
+					</script>
+				<a href="#" id="toTop" style="display: block;"> <span id="toTopHover" style="opacity: 1;"> </span></a>
+
+	</div>
+
+</body>
+</html>
