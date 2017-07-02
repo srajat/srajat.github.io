@@ -1,6 +1,5 @@
-#My Personal Website
+## Links <a name='links'></a>
 
-To visit Goto :
-<pre>
-- [srajat.github.io](http://srajat.github.io)
-- [www.rajatsaxena.in](http://www.rajatsaxena.in)
+Visit me:     [Rajat Saxena](http://www.rajatsaxena.me/)
+
+Contact me:     <rajat8171@gmail.com>
